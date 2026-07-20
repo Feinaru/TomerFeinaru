@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f4f3ed" />
+    <meta name="description" content="תומר פיינרו — יזם טכנולוגי, מפתח Full-Stack ואיש מוצר." />
+    <meta property="og:title" content="תומר פיינרו | Product & Technology" />
+    <meta property="og:description" content="רעיון. מוצר. טכנולוגיה." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://tomerfeinaru.com/" />
+    <meta property="og:image" content="https://tomerfeinaru.com/assets/tomer-feinaru-share.jpg" />
+    <meta property="og:image:alt" content="תומר פיינרו" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="https://tomerfeinaru.com/" />
+    <title>תומר פיינרו | Product & Technology</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="footer.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">דילוג לתוכן המרכזי</a>
+
+    <div class="page-shell">
+      <header>
+        <a class="name" href="./" aria-label="תומר פיינרו — ראש העמוד">תומר פיינרו<span>.</span></a>
+        <nav class="header-links" aria-label="ניווט ראשי">
+          <a href="en.html" lang="en" hreflang="en">EN</a>
+          <a href="https://www.linkedin.com/in/tomer-feinaru-b28741240/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+          <button class="text-button" type="button" data-open-contact>יצירת קשר</button>
+        </nav>
+      </header>
+
+      <main id="main">
+        <div class="intro">
+          <p class="eyebrow">PRODUCT · TECHNOLOGY · ENTREPRENEURSHIP</p>
+          <h1>רעיון טוב צריך<br />ביצוע <em>מדויק.</em></h1>
+          <p class="description">יזם טכנולוגי, מפתח Full-Stack ואיש מוצר. מתכנן ובונה מוצרים דיגיטליים משלב הרעיון ועד למוצר עובד.</p>
+          <div class="actions">
+            <button class="primary-button" type="button" data-open-contact>בואו נדבר <span aria-hidden="true">←</span></button>
+            <a class="phone" href="tel:+972555707035" dir="ltr">0555-7070-35</a>
+          </div>
+        </div>
+
+        <figure class="portrait">
+          <img src="assets/tomer-feinaru.webp" alt="תומר פיינרו" width="900" height="900" />
+        </figure>
+      </main>
+
+      <footer>
+        <div class="legal-links">
+          <button type="button" data-open-privacy>מדיניות פרטיות</button>
+          <button type="button" data-open-accessibility>הצהרת נגישות</button>
+        </div>
+        <p>Full-Stack · Product · Technology</p>
+        <p class="copyright">© <span id="year"></span> תומר פיינרו. כל הזכויות שמורות.</p>
+      </footer>
+    </div>
+
+    <button class="accessibility-trigger" type="button" data-toggle-accessibility aria-expanded="false" aria-controls="accessibility-menu" aria-label="פתיחת תפריט נגישות">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="4" r="2"/><path d="M4 7.5h16M12 6v6m0 0-4 8m4-8 4 8"/></svg>
+    </button>
+
+    <aside class="accessibility-menu" id="accessibility-menu" aria-label="אפשרויות נגישות" hidden>
+      <div class="menu-head"><strong>נגישות</strong><button type="button" data-close-accessibility aria-label="סגירת תפריט נגישות">×</button></div>
+      <button type="button" data-accessibility-action="font">הגדלת טקסט</button>
+      <button type="button" data-accessibility-action="contrast">ניגודיות גבוהה</button>
+      <button type="button" data-accessibility-action="links">הדגשת קישורים</button>
+      <button type="button" data-accessibility-action="reset">איפוס התאמות</button>
+      <button class="statement-link" type="button" data-open-accessibility>להצהרת הנגישות</button>
+    </aside>
+
+    <dialog id="contact-dialog" aria-labelledby="contact-title">
+      <div class="dialog-head"><div><p>יצירת קשר</p><h2 id="contact-title">ספרו לי בקצרה.</h2></div><button class="close-button" type="button" data-close-dialog aria-label="סגירת החלונית">×</button></div>
+      <form id="contact-form">
+        <div class="field-pair"><label>שם<input name="name" type="text" autocomplete="name" required /></label><label>טלפון<input name="phone" type="tel" autocomplete="tel" required /></label></div>
+        <label>במה אוכל לעזור?<textarea name="message" rows="3" required></textarea></label>
+        <button class="primary-button form-submit" type="submit">המשך ל־WhatsApp <span aria-hidden="true">↗</span></button>
+        <small>הפנייה תיפתח כהודעת WhatsApp מוכנה. היא לא תישלח ללא אישורך.</small>
+      </form>
+    </dialog>
+
+    <dialog id="privacy-dialog" class="policy-dialog" aria-labelledby="privacy-title">
+      <div class="dialog-head"><h2 id="privacy-title">מדיניות פרטיות</h2><button class="close-button" type="button" data-close-dialog aria-label="סגירת החלונית">×</button></div>
+      <div class="policy-content">
+        <p><strong>עודכן לאחרונה: 20 ביולי 2026</strong></p>
+        <p>האתר אינו משתמש בעוגיות, בכלי מעקב או בשירותי אנליטיקה, ואינו שומר באתר מידע אישי. בחירות בתפריט הנגישות נשמרות מקומית בדפדפן בלבד כדי לזכור את העדפות התצוגה שלך.</p>
+        <h3>פנייה באמצעות WhatsApp</h3>
+        <p>בעת מילוי טופס יצירת הקשר, הפרטים שהזנת משמשים ליצירת הודעה מוכנה ב־WhatsApp. ההודעה נשלחת רק אם תבחר לשלוח אותה, והטיפול בפרטים לאחר מכן נעשה לצורך מענה לפנייתך. השימוש ב־WhatsApp כפוף למדיניות הפרטיות של השירות.</p>
+        <h3>קישורים חיצוניים</h3>
+        <p>האתר כולל קישורים ל־LinkedIn ול־WhatsApp. לאחר מעבר לאתר חיצוני חלים תנאי השימוש ומדיניות הפרטיות שלו.</p>
+        <h3>יצירת קשר בנושא פרטיות</h3>
+        <p>לבקשה לעיון, תיקון או מחיקה של פרטים שמסרת בפנייה, ניתן ליצור קשר בטלפון <a href="tel:+972555707035" dir="ltr">0555-7070-35</a>.</p>
+      </div>
+    </dialog>
+
+    <dialog id="accessibility-dialog" class="policy-dialog" aria-labelledby="accessibility-title">
+      <div class="dialog-head"><h2 id="accessibility-title">הצהרת נגישות</h2><button class="close-button" type="button" data-close-dialog aria-label="סגירת החלונית">×</button></div>
+      <div class="policy-content">
+        <p><strong>עודכן לאחרונה: 20 ביולי 2026</strong></p>
+        <p>אנו רואים חשיבות במתן אפשרות שווה ונוחה לשימוש באתר. האתר נבנה תוך שאיפה להתאמה להנחיות הנגישות המקובלות ולתקן הישראלי ת״י 5568.</p>
+        <h3>התאמות שבוצעו באתר</h3>
+        <ul><li>ניווט באמצעות <strong>Tab</strong>, חזרה באמצעות <strong>Shift+Tab</strong>, הפעלה באמצעות <strong>Enter</strong> וסגירת חלוניות באמצעות <strong>Esc</strong>.</li><li>מבנה כותרות סמנטי ותיאורים לרכיבים חזותיים.</li><li>ניגודיות צבעים ומצבי מיקוד ברורים.</li><li>תצוגה מותאמת למחשב, טאבלט וטלפון.</li><li>כלי להגדלת טקסט, ניגודיות גבוהה והדגשת קישורים.</li></ul>
+        <h3>סייגים ופנייה בנושא נגישות</h3>
+        <p>ייתכן שיתגלו חלקים שטרם הונגשו באופן מיטבי. אם נתקלת בקושי, אנא פנה בטלפון <a href="tel:+972555707035" dir="ltr">0555-7070-35</a> וציין את הפעולה שניסית לבצע, סוג הדפדפן והמכשיר. נעשה מאמץ לטפל בפנייה ולספק חלופה נגישה.</p>
+        <p>האתר אינו מספק קבלת קהל.</p>
+      </div>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>

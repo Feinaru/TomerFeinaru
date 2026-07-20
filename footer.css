@@ -1,0 +1,59 @@
+/* Slightly darker secondary text keeps small labels comfortably legible. */
+:root {
+  --muted: #565c51;
+}
+
+.portrait {
+  border: 1px solid var(--olive);
+  border-radius: 18px;
+}
+
+.portrait img {
+  border-radius: 17px;
+}
+
+footer {
+  direction: ltr;
+}
+
+[dir="rtl"] footer > * {
+  direction: rtl;
+}
+
+footer .legal-links {
+  grid-column: 1;
+  justify-self: start;
+}
+
+footer > p:nth-child(2) {
+  grid-column: 2;
+  justify-self: center;
+}
+
+footer .copyright {
+  grid-column: 3;
+  justify-self: end;
+}
+
+@media (max-width: 900px) {
+  footer .legal-links { grid-column: 1; }
+  footer .copyright { grid-column: 2; }
+}
+
+@media (max-width: 650px) {
+  main .portrait {
+    display: block;
+    width: 112px;
+    height: 132px;
+    margin: -4px auto 0;
+    border-radius: 14px;
+  }
+
+  main .portrait img {
+    border-radius: 13px;
+  }
+
+  footer .legal-links,
+  footer .copyright { grid-column: 1; }
+  footer .copyright { justify-self: start; }
+}
